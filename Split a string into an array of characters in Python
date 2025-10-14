@@ -1,0 +1,7 @@
+# Example string
+text = &quot;Hello&quot;
+
+# Split into characters
+char_list = list(text)
+
+print(char_list)
