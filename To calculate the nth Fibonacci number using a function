@@ -1,0 +1,18 @@
+def fibonacci(n):
+if n &lt;= 0:
+return &quot;Invalid input&quot;
+elif n == 1:
+return 0
+elif n == 2:
+return 1
+else:
+a, b = 0, 1
+for i in range(3, n + 1):
+c = a + b
+a = b
+b = c
+return b
+
+# Example usage
+n = 7
+print(f&quot;The {n}th Fibonacci number is:&quot;, fibonacci(n))
