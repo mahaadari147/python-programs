@@ -1,0 +1,11 @@
+def factorial(n):
+if n &lt; 0:
+return &quot;Invalid input&quot;
+elif n == 0 or n == 1:
+return 1 # base case
+else:
+return n * factorial(n - 1) # recursive case
+
+# Example usage
+num = 5
+print(f&quot;The factorial of {num} is:&quot;, factorial(num))
