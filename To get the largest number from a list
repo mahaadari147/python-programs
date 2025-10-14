@@ -1,0 +1,7 @@
+# Sample list
+numbers = [45, 87, 23, 67, 91, 12]
+
+# Get the largest number
+largest = max(numbers)
+
+print(&quot;The largest number is:&quot;, largest)
