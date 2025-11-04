@@ -1,0 +1,15 @@
+class Ride:
+def __init__(self, driver, fare):
+self.driver = driver
+self.fare = fare
+def start_ride(self):
+print(f"Ride started with driver
+{self.driver}")
+def end_ride(self):
+print(f"Ride ended. Fare: ₹{self.fare}")
+
+N D Prasanna (6427)
+# Usage
+r1 = Ride("Amit", 250)
+r1.start_ride()
+r1.end_ride()
