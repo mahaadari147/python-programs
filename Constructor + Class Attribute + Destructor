@@ -1,0 +1,21 @@
+class Car:
+wheels = 4 # Class attribute
+def __init__(self, make, model):
+self.make = make # Instance attribute
+self.model = model
+print(f"{self.make} {self.model} is ready!")
+def display_info(self):
+print(f"Car: {self.make} {self.model}, Wheels:
+{Car.wheels}")
+def __del__(self):
+print(f"{self.make} {self.model} is being
+removed.")
+# Creating objects
+car1 = Car("Toyota", "Corolla")
+car2 = Car("Tesla", "Model 3")
+car1.display_info()
+car2.display_info()
+
+N D Prasanna (6427)
+# Deleting one object
+del car1
