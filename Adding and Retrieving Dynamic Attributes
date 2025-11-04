@@ -1,0 +1,10 @@
+class Student:
+    def __init__(self, name):
+        self.name = name
+# create object
+s1 = Student("Alice")
+# add dynamic attributes
+s1.age = 21
+s1.course = "Computer Science"
+# retrieve all attributes
+print(s1.__dict__)
