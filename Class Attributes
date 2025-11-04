@@ -1,0 +1,16 @@
+class Student:
+college_name = "Aditya College" # Class
+Attribute (shared by all students)
+def __init__(self, name):
+
+N D Prasanna (6427)
+self.name = name # Instance Attribute
+# Creating objects
+s1 = Student("jyothi")
+s2 = Student("Sita")
+print(s1.name, "-", s1.college_name)
+print(s2.name, "-", s2.college_name)
+# Changing class attribute for all objects
+Student.college_name = "ACET"
+print(s1.name, "-", s1.college_name)
+print(s2.name, "-", s2.college_name)
