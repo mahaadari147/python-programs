@@ -1,0 +1,2 @@
+del s1.age
+print(s1.__dict__)
