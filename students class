@@ -1,0 +1,16 @@
+class Student:
+def set_details(self, name, roll):
+self.name = name
+self.roll = roll
+
+def display(self):
+print(f"Name: {self.name}, Roll No: {self.roll}")
+
+# Create object
+s1 = Student()
+
+# Manually set attributes using a method
+s1.set_details("Ravi", 101)
+
+# Display the result
+s1.display()
